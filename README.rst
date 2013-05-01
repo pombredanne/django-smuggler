@@ -118,10 +118,20 @@ Load form:
 Release notes
 =============
 
-Version 0.4 (in development)
+Version 0.4.1 (in development)
 ----------------------------
 
-* *Nothing yet*
+* Changelist template is now Django 1.5 compat.
+
+
+Version 0.4 (2013-04-01)
+------------------------
+
+* Django 1.5+ support;
+
+* Added German translation;
+
+* Added some tests.
 
 
 Version 0.3 (2012-01-31)
@@ -129,7 +139,7 @@ Version 0.3 (2012-01-31)
 
 * Significant bug fixes and improvements when loading and exporting data;
 
-* Allow formats for import besides JSON and XML (aa105b3, needs documentation)
+* Allow formats for import besides JSON and XML (aa105b3, needs documentation);
 
 * Added Dutch translation.
 
@@ -139,7 +149,7 @@ Version 0.2 (2011-08-19)
 
 * Django 1.2+ support;
 
-* Keep uploaded files as alternative choices to import (issues #1 and #6)
+* Keep uploaded files as alternative choices to import (issues #1 and #6);
 
 * Vulnerability fixed (d73cec6);
 
